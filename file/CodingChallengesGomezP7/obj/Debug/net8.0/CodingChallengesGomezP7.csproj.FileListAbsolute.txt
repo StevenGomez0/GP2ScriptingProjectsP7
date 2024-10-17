@@ -1,0 +1,14 @@
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\bin\Debug\net8.0\CodingChallengesGomezP7.exe
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\bin\Debug\net8.0\CodingChallengesGomezP7.deps.json
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\bin\Debug\net8.0\CodingChallengesGomezP7.runtimeconfig.json
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\bin\Debug\net8.0\CodingChallengesGomezP7.dll
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\bin\Debug\net8.0\CodingChallengesGomezP7.pdb
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\CodingChallengesGomezP7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\CodingChallengesGomezP7.AssemblyInfoInputs.cache
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\CodingChallengesGomezP7.AssemblyInfo.cs
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\CodingChallengesGomezP7.csproj.CoreCompileInputs.cache
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\CodingChallengesGomezP7.dll
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\refint\CodingChallengesGomezP7.dll
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\CodingChallengesGomezP7.pdb
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\CodingChallengesGomezP7.genruntimeconfig.cache
+C:\Users\Per1Student\Documents\Console Scripts\CodingChallengesGomezP7\obj\Debug\net8.0\ref\CodingChallengesGomezP7.dll
