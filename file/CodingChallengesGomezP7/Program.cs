@@ -16,44 +16,62 @@ namespace MyApp
             //welcome the user to my program
             Console.WriteLine("Welcome to my coding challenge program. I will be making a variety of functions for you to use.");
             SelectMethod();
+            
         }
 
         static void SelectMethod()
         {
+            string[] methods = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" };
             Console.WriteLine(" \nPlease pick one from the list.\n0: Exit\n1: Sum\n2: Minutes to Seconds\n3: Plus One\n4: Circuit Power\n5: Days in Years\n6: Triangle Area\n7: Less than or Equal to 0");
             string num = Console.ReadLine()!;
-            float parsed1;
-            if (float.TryParse(num, out parsed1))
+            int parsed;
+            if (int.TryParse(num, out parsed))
             {
-                float temp;
-                temp = parsed1;
-                temp %= 1;//why is there a dot under the equal sign!!
+                //DEBUG Console.WriteLine(parsed);
+                if (parsed <= 7 && parsed >= 0)
+                {
+                    //DEBUG Console.WriteLine("call method " + methods[parsed]);
+                    methods[parsed];
+                }
+            }
+            else
+            {
+                Console.WriteLine("Please pick a valid function.");
+                SelectMethod();
+            }
+               /*( float temp;
+                temp = parsed;
+                temp %= 1;
 
-                if (temp == 0 && parsed1 <= 7)
+                if (temp == 0 && parsed <= 7)
                 {
                     //truly sickening if statements, ill do a list eventually
-                    if (parsed1 == 0) { Environment.Exit(0); }
-                    if (parsed1 == 1) { Adder(); }
-                    if (parsed1 == 2) { minuteConvert(); }
-                    if (parsed1 == 3) { plusOne(); }
-                    if (parsed1 == 4) { Multiply(); }
-                    if (parsed1 == 5) { daysInYear(); }
-                    if (parsed1 == 6) { Area(); }
-                    if (parsed1 == 7) { ToZero(); }
+                    if (parsed == 0) { Environment.Exit(0); }
+                    else if (parsed == 1) { Adder(); }
+                    else if (parsed == 2) { minuteConvert(); }
+                    else if (parsed == 3) { plusOne(); }
+                    else if (parsed == 4) { Multiply(); }
+                    else if (parsed == 5) { daysInYear(); }
+                    else if (parsed == 6) { Area(); }
+                    else if (parsed == 7) { ToZero(); }
                 }
                 else
                 {
-                    Console.WriteLine("Please pick a valid number.");
+                    Console.WriteLine("Please pick a valid function.");
                     SelectMethod();
                 }
             }
             else
             {
-                Console.WriteLine("Please pick a valid number.");
+                Console.WriteLine("Please pick a valid function.");
                 SelectMethod();
-            }
+            }*/
         }
 
+        static void Exit()
+        {
+            Environment.Exit(0);
+        }
 
         static void Adder()
         {
