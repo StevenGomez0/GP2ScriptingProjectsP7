@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Reflection;
 
 namespace MyApp
@@ -8,6 +9,7 @@ namespace MyApp
      * got rid of all of those null warnings for the console.readline() commands by adding an ! after. this could cause a problem later but im pretty sure the check i added with all of them fixes that.
      * i guess ill just type here for random stuff like changes or something
      * ok so i did the select method thing! upkeep!! it kinda sucks though because i dont know how to use a list. and also im bad at safeguards rn.
+     * all the selectmethod calls in comments are leftovers from a while ago jsut ignore those
      */
     internal class ProgramSum
     {
@@ -15,62 +17,71 @@ namespace MyApp
         {
             //welcome the user to my program
             Console.WriteLine("Welcome to my coding challenge program. I will be making a variety of functions for you to use.");
-            SelectMethod();
-            
-        }
-
-        static void SelectMethod()
-        {
-            string[] methods = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" };
-            Console.WriteLine(" \nPlease pick one from the list.\n0: Exit\n1: Sum\n2: Minutes to Seconds\n3: Plus One\n4: Circuit Power\n5: Days in Years\n6: Triangle Area\n7: Less than or Equal to 0");
+            //string[] list = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" }; leftovers from a while ago
+            Console.WriteLine(" \nPlease pick one from the list.\n1: Sum\n2: Minutes to Seconds\n3: Plus One\n4: Circuit Power\n5: Days in Years\n6: Triangle Area\n7: Less than or Equal to 0\n8: Less than 100\n9: Equal\n10: GiveSomething\n11: Reverse Boolean\n12: HoursToSeconds\n13: PolygonSidesAnglesSomethingIdk\n14: edabit\n15: and\n16: basketball\n17: perimeter\n18: helloName\n19: farm or something\n20: football");
             string num = Console.ReadLine()!;
             int parsed;
             if (int.TryParse(num, out parsed))
             {
                 //DEBUG Console.WriteLine(parsed);
-                if (parsed <= 7 && parsed >= 0)
+                if (parsed <= 20 && parsed >= 1)
                 {
-                    //DEBUG Console.WriteLine("call method " + methods[parsed]);
-                    methods[parsed];
-                }
-            }
-            else
-            {
-                Console.WriteLine("Please pick a valid function.");
-                SelectMethod();
-            }
-               /*( float temp;
-                temp = parsed;
-                temp %= 1;
-
-                if (temp == 0 && parsed <= 7)
-                {
-                    //truly sickening if statements, ill do a list eventually
-                    if (parsed == 0) { Environment.Exit(0); }
-                    else if (parsed == 1) { Adder(); }
+                    //DEBUG Console.WriteLine("call method " + list[parsed]);
+                    //i didnt figure out how to do this better. ill figure it out eventually
+                    if (parsed == 1) { Adder(); }
                     else if (parsed == 2) { minuteConvert(); }
                     else if (parsed == 3) { plusOne(); }
                     else if (parsed == 4) { Multiply(); }
                     else if (parsed == 5) { daysInYear(); }
                     else if (parsed == 6) { Area(); }
                     else if (parsed == 7) { ToZero(); }
-                }
-                else
-                {
-                    Console.WriteLine("Please pick a valid function.");
-                    SelectMethod();
+                    else if (parsed == 8) { lessThan100(); }
+                    else if (parsed == 9) { ifEqualTo(); }
+                    else if (parsed == 10) { GiveMeSomething(); }
+                    else if (parsed == 11) { ReverseBoolean(); }
+                    else if (parsed == 12) { SecondsToHours(); }
+                    else if (parsed == 13) { PolygonSides(); }
+                    else if (parsed == 14) { Edabit(); }
+                    else if (parsed == 15) { TrueandFalse(); }
+                    else if (parsed == 16) { Basketball(); }
+                    else if (parsed == 17) { Perimeter(); }
+                    else if (parsed == 18) { helloName(); }
+                    else if (parsed == 19) { farm(); }
+                    else if (parsed == 20) { football(); }
                 }
             }
             else
             {
                 Console.WriteLine("Please pick a valid function.");
-                SelectMethod();
-            }*/
-        }
+            }
+            /*leftover stuff
+             ( float temp;
+             temp = parsed;
+             temp %= 1;
 
-        static void Exit()
-        {
-            Environment.Exit(0);
+             if (temp == 0 && parsed <= 7)
+             {
+                 //truly sickening if statements, ill do a list eventually
+                 if (parsed == 0) { Environment.Exit(0); }
+                 else if (parsed == 1) { Adder(); }
+                 else if (parsed == 2) { minuteConvert(); }
+                 else if (parsed == 3) { plusOne(); }
+                 else if (parsed == 4) { Multiply(); }
+                 else if (parsed == 5) { daysInYear(); }
+                 else if (parsed == 6) { Area(); }
+                 else if (parsed == 7) { ToZero(); }
+             }
+             else
+             {
+                 Console.WriteLine("Please pick a valid function.");
+                 SelectMethod();
+             }
+         }
+         else
+         {
+             Console.WriteLine("Please pick a valid function.");
+             SelectMethod();
+         }*/
         }
 
         static void Adder()
@@ -100,7 +111,7 @@ namespace MyApp
             sum = parsed1 + parsed2;
 
             Console.WriteLine("The sum of the number: " + num1 + " and the number: " + num2 + " is equal to: " + sum);
-            SelectMethod();
+            //SelectMethod();
         }
 
         static void minuteConvert()
@@ -117,7 +128,7 @@ namespace MyApp
             parsed1 *= 60;
 
             Console.WriteLine("\n" + num1 + " minutes has " + parsed1 + " seconds.");
-            SelectMethod();
+            //SelectMethod();
         }
 
         static void plusOne()
@@ -134,7 +145,7 @@ namespace MyApp
             parsed++;
 
             Console.WriteLine("\n" + num + " + 1 = " + parsed);
-            SelectMethod();
+            //SelectMethod();
         }
 
         static void Multiply()
@@ -163,7 +174,7 @@ namespace MyApp
             result = parsed1 * parsed2;
 
             Console.WriteLine("The resulting power of " + parsed1 + " voltage and " + parsed2 + " current is " + result + " total power.");
-            SelectMethod();
+            //SelectMethod();
         }
 
         static void daysInYear()
@@ -182,7 +193,7 @@ namespace MyApp
             days = parsed1 * 365;
 
             Console.WriteLine("There are " + days + " days in " + num1 + " years.");
-            SelectMethod();
+            //SelectMethod();
         }
 
         static void Area()
@@ -209,7 +220,7 @@ namespace MyApp
 
             float result = AreaTriangle(parsed1, parsed2);
             Console.WriteLine("The area of a triangle with a height of " + hig + " and a base of " + bas + " is " + result + ".");
-            SelectMethod();
+            //SelectMethod();
         }
 
         static float AreaTriangle(float hig, float bas)
@@ -239,7 +250,257 @@ namespace MyApp
             {
                 Console.WriteLine("False, the number is larger than 0.");
             }
-            SelectMethod();
+            //SelectMethod();
+        }
+
+        static void lessThan100()
+        {
+            Console.WriteLine("\n\nthis will take 2 numbers and determine if the sum is less than 100.\nplease input the first number");
+            string num = Console.ReadLine()!;
+            float parsed1;
+            while ((!float.TryParse(num, out parsed1)))
+            {
+                Console.WriteLine("Please input a number.");
+                num = Console.ReadLine()!;
+            }
+            Console.WriteLine("now input the second number.");
+            string num1 = Console.ReadLine()!;
+            float parsed2;
+            while ((!float.TryParse(num1, out parsed2)))
+            {
+                Console.WriteLine("Please input a number.");
+                num1 = Console.ReadLine()!;
+            }
+
+            float temp;
+            temp = parsed1 + parsed2;
+            if (temp < 100)
+            {
+                Console.WriteLine(parsed1 + " + " + parsed2 + " is less than 100.");
+            }
+            else
+            {
+                Console.WriteLine(parsed1 + " + " + parsed2 + " is not less than 100.");
+            }
+        }
+
+        static void ifEqualTo()
+        {
+            Console.WriteLine("\n\nthis will take 2 numbers and determine if theyre the same value.\nPlease input the first number.");
+            string num = Console.ReadLine()!;
+            float parsed1;
+            while ((!float.TryParse(num, out parsed1)))
+            {
+                Console.WriteLine("Please input a number.");
+                num = Console.ReadLine()!;
+            }
+            Console.WriteLine("now input the second number.");
+            string num1 = Console.ReadLine()!;
+            float parsed2;
+            while ((!float.TryParse(num1, out parsed2)))
+            {
+                Console.WriteLine("Please input a number.");
+                num1 = Console.ReadLine()!;
+            }
+
+            parsed1 = parsed1 - parsed2;
+            if (parsed1 == 0)
+            {
+                Console.WriteLine("The two numbers are the same.");
+            }
+            else
+            {
+                Console.WriteLine("The numbers are different.");
+            }
+        }
+
+        static void GiveMeSomething()
+        {
+            Console.WriteLine("\n\nthis will return a string of \"something\" + whatever you input\nplease input the string");
+            string something = Console.ReadLine()!;
+            printsomething(something);
+        }
+
+        static void printsomething(string h)
+        {
+            Console.WriteLine("something " + h);
+        }
+
+        static void ReverseBoolean()
+        {
+            Console.WriteLine("\n\n hi this will take a bool value and reverse it\nput in \"true\" or \"false\" to choose true or false");
+            bool theBool;
+            while (!Boolean.TryParse(Console.ReadLine(), out theBool))
+            {
+                Console.WriteLine("Please input either \"true\" or \"false\".");
+            }
+            Console.WriteLine("you put in " + theBool + " so you get " + ReverseBoolValue(theBool));
+        }
+
+        static bool ReverseBoolValue(bool value)
+        {
+            value = !value;
+            return value;
+        }
+
+        static void SecondsToHours()
+        {
+            Console.WriteLine("this method will convert however many hours you put in to an amount of seconds\nplease put in an integer");
+            int hours;
+            while(!int.TryParse(Console.ReadLine(),out hours))
+            {
+                Console.WriteLine("Please input a valid number.");
+            }
+            int seconds = hours * 3600;
+            Console.WriteLine("there is " + seconds + " seconds in " + hours + " hours.");
+        }
+
+        static void PolygonSides()
+        {
+            Console.WriteLine("this method will tell you the sum of the internal angles of a polygon with however many sides you input\nplease input an integer greater than 2");
+            int sides;
+            while (!int.TryParse(Console.ReadLine(), out sides) || sides <= 2)
+            {
+                Console.WriteLine("Please input an integer greater than 2.");
+            }
+            int angleSum = (sides - 2) * 180;
+            Console.WriteLine("the sum of the internal angles of a polygon with " + sides + " sides is " + angleSum + " degrees.");
+        }
+
+        static void Edabit()
+        {
+            Console.WriteLine("\nthis will take a string and will add \"edabit\" on the end.\nplease put a string.");
+            var text = Console.ReadLine()!;
+            Console.WriteLine(text + "Edabit");
+        }
+
+        static void TrueandFalse()
+        {
+            Console.WriteLine("this method will take two inputted boolean values and if both are true, will return \"true\", otherwise it will return \"false\".\nplease input the first bool.");
+            bool bool1;
+            bool bool2;
+            while (!Boolean.TryParse(Console.ReadLine(), out bool1))
+            {
+                Console.WriteLine("Please input either \"true\" or \"false\".");
+            }
+            Console.WriteLine("great, input the second bool now pretty please");
+            while (!Boolean.TryParse(Console.ReadLine(), out bool2))
+            {
+                Console.WriteLine("Please input either \"true\" or \"false\".");
+            }
+            Console.WriteLine("and(" + bool1 + ", " + bool2 + ") --> " + and(bool1, bool2));
+        }
+
+        static bool and(bool bool1, bool bool2)
+        {
+            if (bool1 && bool2) { return true; } else { return false; }
+        }
+
+        static void Basketball()
+        {
+            Console.WriteLine("this method will sum the score the amount of 2 and 3 pointers made\n how many 2 pointers were made");
+            int twoP;
+            int threeP;
+            while (!int.TryParse(Console.ReadLine(), out twoP) || twoP < 0)
+            {
+                Console.WriteLine("please input a valid whole number");
+            }
+            Console.WriteLine("cool, how many 3 pointers were made?");//ow my hand is sore
+            while (!int.TryParse(Console.ReadLine(), out threeP) || threeP < 0)
+            {
+                Console.WriteLine("please input a valid whole number");
+            }
+            Console.WriteLine("points("+ twoP + ", " + threeP + ") --> " + pointsBasket(twoP, threeP));
+        }
+        static int pointsBasket(int twoP, int threeP)
+        {
+            return (twoP * 2) + (threeP * 3);
+        }
+
+        static void Perimeter()
+        {
+            Console.WriteLine("hi this method will take 2 inputed values and determine a perimeter if a rectangle had those dimensions\nplease input the width");
+            int width;
+            int length;
+            while (!int.TryParse(Console.ReadLine(), out width) || width <= 0)
+            {
+                Console.WriteLine("please input a valid value");
+            }
+            Console.WriteLine("cool, now input the length.");
+            while (!int.TryParse(Console.ReadLine(), out length) || length <= 0)
+            {
+                Console.WriteLine("please input a valid value");
+            }
+            Console.WriteLine("the perimeter of a rectangle with a width of " + width + " and a length of " + length + " is " + perimeterCalc(width, length));
+        }
+
+        static int perimeterCalc(int width, int length)
+        {
+            return (2 * width) + (2 * length);
+        }
+
+        static void helloName()
+        {
+            Console.WriteLine("hi this will take a string you type and add \"Hello \" before it\nplease input the text");
+            string name;
+            name = Console.ReadLine()!;
+            Console.WriteLine("\"Hello " + name + "!\"");
+        }
+
+        static void farm()
+        {
+            int chickens;
+            int cows;
+            int pigs;
+            Console.WriteLine("ok this method will take the amount of chickens, cows, and pigs a farmer has from your inputs and output how many legs the animals have\nhow many chickens were there?(chickens have 2 legs each)");
+            while(!int.TryParse(Console.ReadLine(),out chickens) || chickens < 0)
+            {
+                Console.WriteLine("please put a valid number of chickens");
+            }
+            Console.WriteLine("cool, now how many cows were there (4 legs)");
+            while (!int.TryParse(Console.ReadLine(), out cows) || cows < 0)
+            {
+                Console.WriteLine("please put a valid number of cows");
+            }
+            Console.WriteLine("cool now how many pigs were there (4 legs)");
+            while (!int.TryParse(Console.ReadLine(), out pigs) || pigs < 0)
+            {
+                Console.WriteLine("please put a valid number of pigs");
+            }
+            Console.WriteLine("animals(" + chickens + ", " + cows + ", " + pigs + ") --> " + legs(chickens, cows, pigs));
+        }
+
+        static int legs(int chickens, int cows, int pigs)
+        {
+            return (chickens * 2) + (cows * 4) + (pigs * 4);
+        }
+
+        static void football()
+        {
+            int wins;
+            int draws;
+            int losses;
+            Console.WriteLine("hi football score thing wins = 3, draw = 1, loss = 0\nhow many wins did the team get");
+            while(!int.TryParse(Console.ReadLine(), out wins) || wins < 0)
+            {
+                Console.WriteLine("please input a valid number");
+            }
+            Console.WriteLine("ok put how many draws the team had");
+            while (!int.TryParse(Console.ReadLine(), out draws) || draws < 0)
+            {
+                Console.WriteLine("please input a valid number");
+            }
+            Console.WriteLine("ok last put how many losses the team had");
+            while (!int.TryParse(Console.ReadLine(), out losses) || losses < 0)
+            {
+                Console.WriteLine("please input a valid number");
+            }
+            Console.WriteLine("FootballPoints(" + wins + ", " + draws + ", " + losses + ") --> " + footballScore(wins, draws, losses));
+        }
+
+        static int footballScore(int wins, int draws, int losses)
+        {
+            return (wins * 3) + (draws);
         }
     }
 }
