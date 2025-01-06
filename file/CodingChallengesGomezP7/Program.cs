@@ -18,13 +18,14 @@ namespace MyApp
             //welcome the user to my program
             Console.WriteLine("Welcome to my coding challenge program. I will be making a variety of functions for you to use.");
             //string[] list = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" }; leftovers from a while ago
-            Console.WriteLine(" \nPlease pick one from the list.\n1: Sum\n2: Minutes to Seconds\n3: Plus One\n4: Circuit Power\n5: Days in Years\n6: Triangle Area\n7: Less than or Equal to 0\n8: Less than 100\n9: Equal\n10: GiveSomething\n11: Reverse Boolean\n12: HoursToSeconds\n13: PolygonSidesAnglesSomethingIdk\n14: edabit\n15: and\n16: basketball\n17: perimeter\n18: helloName\n19: farm or something\n20: football");
+            Console.WriteLine(" \nPlease pick one from the list.\n1: Sum\n2: Minutes to Seconds\n3: Plus One\n4: Circuit Power\n5: Days in Years\n6: Triangle Area\n7: Less than or Equal to 0\n8: Less than 100\n9: Equal\n10: GiveSomething\n11: Reverse Boolean\n12: HoursToSeconds\n13: PolygonSidesAnglesSomethingIdk\n14: edabit\n15: and\n16: basketball\n17: perimeter\n18: helloName\n19: farm or something\n20: football\n21: months");
+            Console.WriteLine(); //empty line
             string num = Console.ReadLine()!;
             int parsed;
             if (int.TryParse(num, out parsed))
             {
                 //DEBUG Console.WriteLine(parsed);
-                if (parsed <= 20 && parsed >= 1)
+                if (parsed <= 21 && parsed >= 1)
                 {
                     //DEBUG Console.WriteLine("call method " + list[parsed]);
                     //i didnt figure out how to do this better. ill figure it out eventually
@@ -48,6 +49,7 @@ namespace MyApp
                     else if (parsed == 18) { helloName(); }
                     else if (parsed == 19) { farm(); }
                     else if (parsed == 20) { football(); }
+                    else if (parsed == 21) { months(); }
                 }
             }
             else
@@ -501,6 +503,24 @@ namespace MyApp
         static int footballScore(int wins, int draws, int losses)
         {
             return (wins * 3) + (draws);
+        }
+
+        static void months()
+        {
+            int input;
+            Console.WriteLine("hello, this method will return a month based on whatever you input. you should know what number returns what month.\nplease input a number between 1 and 12\n");
+            while (!int.TryParse(Console.ReadLine(), out input) || input <= 0 || input > 12)
+            {
+                Console.WriteLine("please input a whole number between 1 and 12");
+            }
+            Console.WriteLine(monthName(input-1));
+        }
+
+        static string monthName(int m)
+        {
+            string[] months = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
+            return months[m];
+            
         }
     }
 }
