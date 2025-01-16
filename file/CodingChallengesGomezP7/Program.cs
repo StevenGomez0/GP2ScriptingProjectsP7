@@ -15,17 +15,18 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
+            Challenge25();
             //welcome the user to my program
             Console.WriteLine("Welcome to my coding challenge program. I will be making a variety of functions for you to use.");
             //string[] list = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" }; leftovers from a while ago
-            Console.WriteLine(" \nPlease pick one from the list.\n1: Sum\n2: Minutes to Seconds\n3: Plus One\n4: Circuit Power\n5: Days in Years\n6: Triangle Area\n7: Less than or Equal to 0\n8: Less than 100\n9: Equal\n10: GiveSomething\n11: Reverse Boolean\n12: HoursToSeconds\n13: PolygonSidesAnglesSomethingIdk\n14: edabit\n15: and\n16: basketball\n17: perimeter\n18: helloName\n19: farm or something\n20: football\n21: months");
+            Console.WriteLine(" \nPlease pick one from the list.\n1: Sum\n2: Minutes to Seconds\n3: Plus One\n4: Circuit Power\n5: Days in Years\n6: Triangle Area\n7: Less than or Equal to 0\n8: Less than 100\n9: Equal\n10: GiveSomething\n11: Reverse Boolean\n12: HoursToSeconds\n13: PolygonSidesAnglesSomethingIdk\n14: edabit\n15: and\n16: basketball\n17: perimeter\n18: helloName\n19: farm or something\n20: football\n21: months\n22: min and max");
             Console.WriteLine(); //empty line
             string num = Console.ReadLine()!;
             int parsed;
             if (int.TryParse(num, out parsed))
             {
                 //DEBUG Console.WriteLine(parsed);
-                if (parsed <= 21 && parsed >= 1)
+                if (parsed <= 25 && parsed >= 1)
                 {
                     //DEBUG Console.WriteLine("call method " + list[parsed]);
                     //i didnt figure out how to do this better. ill figure it out eventually
@@ -50,6 +51,11 @@ namespace MyApp
                     else if (parsed == 19) { farm(); }
                     else if (parsed == 20) { football(); }
                     else if (parsed == 21) { months(); }
+                    else if (parsed == 22) { sortArray(); }
+                    else if (parsed == 23) { Challenge23(); }
+                    else if (parsed == 24) { Challenge24(); }
+                    else if (parsed == 25) { Challenge25(); }
+                    //else if (parsed == 26) { Challenge26(); }
                 }
             }
             else
@@ -414,6 +420,7 @@ namespace MyApp
             }
             Console.WriteLine("points("+ twoP + ", " + threeP + ") --> " + pointsBasket(twoP, threeP));
         }
+
         static int pointsBasket(int twoP, int threeP)
         {
             return (twoP * 2) + (threeP * 3);
@@ -522,5 +529,128 @@ namespace MyApp
             return months[m];
             
         }
+
+        static void sortArray()
+        {
+            Console.WriteLine("hi this method finds the minimum and maximum of an integer array you type in\nplease input your array with a comma seperating each number, like \"1, 2, 3\"\n");
+            int[] array = ArrayInputandParse();
+            while (array == null)
+            {
+                array = ArrayInputandParse();
+            }
+            Array.Sort(array);
+            Console.WriteLine("[" + array[0] + ", " + array[array.Length - 1] + "]");
+        }
+
+        /* hi this method is not currently used, but im keeping it here for reference for later.
+         * static void sortArrayMethod()
+        {
+            //ok i made 2 methods for this because if i didnt it would repeat the starting message every single time you were prompted to reinput after putting in a nonworking array
+            string string1 = Console.ReadLine()!;
+            while (string1 == null)
+            {
+                string1 = Console.ReadLine()!;
+            }
+            string[] tokens = string1.Split(",");
+            int[] arr = new int[tokens.Length];
+            for (int i = 0; i < tokens.Length; i++)
+            {
+                if (!int.TryParse(tokens[i], out arr[i]))
+                {
+                    Console.WriteLine("please input only whole number integers as your array\n");
+                    sortArrayMethod();
+                    return;
+                }
+                arr[i] = int.Parse(tokens[i]);
+            }
+            Array.Sort(arr);
+            Console.WriteLine("[" + arr[0] + ", " + arr[arr.Length - 1] + "]");
+        }**/
+
+        static int[] ArrayInputandParse()
+        {
+            string string1 = Console.ReadLine()!;
+            while (string1 == null)
+            {
+                string1 = Console.ReadLine()!;
+            }
+            string[] tokens = string1.Split(",");
+            int[] arr = new int[tokens.Length];
+            for (int i = 0; i < tokens.Length; i++)
+            {
+                if (!int.TryParse(tokens[i], out arr[i]))
+                {
+                    Console.WriteLine("please input only whole number integers as your array\n");
+                    return null!; //null is intended and accounted for (hopefully)
+                }
+                arr[i] = int.Parse(tokens[i]);
+            }
+            return arr;
+        }
+
+        static void Challenge23()
+        {
+            //Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
+            Console.WriteLine("hi this takes an array you input and returns the sum of the absolute value of the array\nplease input your array with a comma seperating each number, like \"1, 2, 3\"\n");
+            int[] array = ArrayInputandParse();
+            while (array == null)
+            {
+                array = ArrayInputandParse();
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = Math.Abs(array[i]);
+            }
+            Console.WriteLine(absoluteArraySum(array));
+        }
+
+        static int absoluteArraySum(int[] array)
+        {
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                sum = sum + array[i];
+            }
+            return sum;
+        }
+
+        static void Challenge24()
+        {
+            //Create a function that takes a base number and an exponent number and returns the calculation.
+            int a; int b;
+            Console.WriteLine("hi this method will take two inputted numbers and returns the first number to the power of the second number\nplease input the first number\nalso if the number is too big it returns infinity so dont put it too high please");
+            while (!int.TryParse(Console.ReadLine(), out a))
+            {
+                Console.WriteLine("please input a whole number");
+            }
+            while (!int.TryParse(Console.ReadLine(), out b))
+            {
+                Console.WriteLine("please input a whole number");
+            }
+            double sum = toThePower(a, b);
+            Console.WriteLine(sum);
+        }
+
+        static double toThePower(int a, int b)
+        {
+            return Math.Pow(a, b);
+        }
+
+        static void Challenge25() //decided to change the naming schemes of the methods
+        {
+            //Create a function to multiply all of the values in an array by the amount of values in the given array.
+            Console.Write("hi this method will take an array and multiply each value by the length of the array\nplease input your array with a comma seperating each number, like \"1, 2, 3\"\n");
+            int[] array = ArrayInputandParse();
+            while(array == null)
+            {
+                array = ArrayInputandParse();
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = array[i] * array.Length;
+            }
+            Console.WriteLine("[{0}]", string.Join(", ", array));
+        }
+
     }
 }
