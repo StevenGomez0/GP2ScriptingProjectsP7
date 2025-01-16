@@ -15,7 +15,6 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Challenge25();
             //welcome the user to my program
             Console.WriteLine("Welcome to my coding challenge program. I will be making a variety of functions for you to use.");
             //string[] list = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" }; leftovers from a while ago

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodingChallengesGomezP7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf4418043b99797d0136b62babfb690f443b9a8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78cbbf99ec59fb875d52c78b733d9c2e371a1388")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodingChallengesGomezP7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodingChallengesGomezP7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
