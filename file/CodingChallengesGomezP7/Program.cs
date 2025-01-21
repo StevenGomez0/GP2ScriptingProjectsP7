@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Numerics;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 
 namespace MyApp
 {
@@ -15,6 +16,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
+            Challenge26();
             //welcome the user to my program
             Console.WriteLine("Welcome to my coding challenge program. I will be making a variety of functions for you to use.");
             //string[] list = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" }; leftovers from a while ago
@@ -651,5 +653,42 @@ namespace MyApp
             Console.WriteLine("[{0}]", string.Join(", ", array));
         }
 
+        static void Challenge26()
+        {
+            string string1;
+            string string2;
+            Console.WriteLine("hi this challenge gets a hamming distance between two inputted strings\nplease input the first string");
+
+            string1 = Console.ReadLine()!;
+            while (string1 == null)
+            {
+                Console.WriteLine("please input something");
+                string1 = Console.ReadLine()!;
+            }
+            Console.WriteLine("cool now input the second string");
+
+            string2 = Console.ReadLine()!;
+            while(string2 == null || string2.Length != string1.Length)
+            {
+                Console.WriteLine("please input something that is as long as your first input (" + string1.Length + " characters)");
+                string2 = Console.ReadLine()!;
+            }
+
+            int result = hammingDistance(string1, string2);
+            Console.WriteLine(result);
+        }
+        static int hammingDistance(string first, string second)
+        {
+            int count = 0;
+            for (int i = 0; i < first.Length; i++)
+            {
+                if(first[i] != second[i])
+                {
+                    count++;
+                }
+            }
+
+            return count;
+        }
     }
 }
