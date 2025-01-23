@@ -16,7 +16,6 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Challenge26();
             //welcome the user to my program
             Console.WriteLine("Welcome to my coding challenge program. I will be making a variety of functions for you to use.");
             //string[] list = { "Exit", "Adder", "minuteConvert", "plusOne", "Multiply", "daysInYear", "Area", "ToZero" }; leftovers from a while ago
@@ -27,7 +26,7 @@ namespace MyApp
             if (int.TryParse(num, out parsed))
             {
                 //DEBUG Console.WriteLine(parsed);
-                if (parsed <= 25 && parsed >= 1)
+                if (parsed <= 27 && parsed >= 1)
                 {
                     //DEBUG Console.WriteLine("call method " + list[parsed]);
                     //i didnt figure out how to do this better. ill figure it out eventually
@@ -56,7 +55,8 @@ namespace MyApp
                     else if (parsed == 23) { Challenge23(); }
                     else if (parsed == 24) { Challenge24(); }
                     else if (parsed == 25) { Challenge25(); }
-                    //else if (parsed == 26) { Challenge26(); }
+                    else if (parsed == 26) { Challenge26(); }
+                    else if (parsed == 27) { Challenge27(); }
                 }
             }
             else
@@ -689,6 +689,21 @@ namespace MyApp
             }
 
             return count;
+        }
+
+        static void Challenge27()
+        {
+            //Create a function that accepts a string (of a person's first and last name) and returns a string with the first and last name swapped.
+            Console.WriteLine("hi this switches \"firstname lastname\" to \"lastname firstname\"\nplease input your name like \"firstname lastname\" with only 1 space ");
+            string string1 = Console.ReadLine()!;
+            string[] tokens = string1.Split(" ");
+            while (tokens.Length != 2)
+            {
+                Console.WriteLine("hi please input the name correctly, only a first and a last name seperated by a space\ninput it now");
+                string1 = Console.ReadLine()!;
+                tokens = string1.Split(" ");
+            }
+            Console.WriteLine(tokens[1] + " " + tokens[0]);
         }
     }
 }
