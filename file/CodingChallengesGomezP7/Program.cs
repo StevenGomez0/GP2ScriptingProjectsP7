@@ -2,6 +2,7 @@
 using System.Numerics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyApp
 {
@@ -26,7 +27,7 @@ namespace MyApp
             if (int.TryParse(num, out parsed))
             {
                 //DEBUG Console.WriteLine(parsed);
-                if (parsed <= 27 && parsed >= 1)
+                if (parsed <= 30 && parsed >= 1)
                 {
                     //DEBUG Console.WriteLine("call method " + list[parsed]);
                     //i didnt figure out how to do this better. ill figure it out eventually
@@ -57,6 +58,9 @@ namespace MyApp
                     else if (parsed == 25) { Challenge25(); }
                     else if (parsed == 26) { Challenge26(); }
                     else if (parsed == 27) { Challenge27(); }
+                    else if (parsed == 28) { Challenge28(); }
+                    else if (parsed == 29) { Challenge29(); }
+                    else if (parsed == 30) { Challenge30(); }
                 }
             }
             else
@@ -339,7 +343,7 @@ namespace MyApp
         {
             Console.WriteLine("\n\n hi this will take a bool value and reverse it\nput in \"true\" or \"false\" to choose true or false");
             bool theBool;
-            while (!Boolean.TryParse(Console.ReadLine(), out theBool))
+            while (!bool.TryParse(Console.ReadLine(), out theBool))
             {
                 Console.WriteLine("Please input either \"true\" or \"false\".");
             }
@@ -388,12 +392,12 @@ namespace MyApp
             Console.WriteLine("this method will take two inputted boolean values and if both are true, will return \"true\", otherwise it will return \"false\".\nplease input the first bool.");
             bool bool1;
             bool bool2;
-            while (!Boolean.TryParse(Console.ReadLine(), out bool1))
+            while (!bool.TryParse(Console.ReadLine(), out bool1))
             {
                 Console.WriteLine("Please input either \"true\" or \"false\".");
             }
             Console.WriteLine("great, input the second bool now pretty please");
-            while (!Boolean.TryParse(Console.ReadLine(), out bool2))
+            while (!bool.TryParse(Console.ReadLine(), out bool2))
             {
                 Console.WriteLine("Please input either \"true\" or \"false\".");
             }
@@ -704,6 +708,80 @@ namespace MyApp
                 tokens = string1.Split(" ");
             }
             Console.WriteLine(tokens[1] + " " + tokens[0]);
+        }
+
+        static void Challenge28()
+        {
+            //Create a function that returns the smaller number.
+            int one;
+            int two;
+            Console.WriteLine("hi this compares 2 numbers for the smaller number\nplease input the first number");
+            while (!int.TryParse(Console.ReadLine(), out one))
+            {
+                Console.WriteLine("please input a valid whole number");
+            }
+            Console.WriteLine("ok cool now input the second number");
+            while (!int.TryParse(Console.ReadLine(), out two))
+            {
+                Console.WriteLine("please input a valid whole number");
+            }
+            if(one > two)
+            {
+                Console.WriteLine(two);
+            }
+            else if(one < two)
+            {
+                Console.WriteLine(one);
+            }
+            else if (one == two)
+            {
+                Console.WriteLine("equal");
+            }
+        }
+
+        static void Challenge29()
+        {
+            Console.Write("hi this is a factorial of whatever you input\nplease input a number\n");
+            int num = 5;
+            while (!int.TryParse(Console.ReadLine(), out num))
+            {
+                Console.WriteLine("please input a valid whole number\n");
+            }
+            Console.WriteLine(factorial(num));
+        }
+
+        static int factorial(int input)
+        {
+            //im not sure if theres a factorial method but im making this anyways
+           //also past like 17 this returns either a negative or 0? not sure what thats about maybe the number is just too big
+            int num = 1;
+            
+            for (int i = 1; i < input+1; i++)
+            {
+                num *= i;
+            }
+            return num;
+        }
+
+        static void Challenge30()
+        {
+            string input;
+            Console.WriteLine("hi put something and the method will count the vowels in it\nput a word");
+            input = Console.ReadLine()!;
+            Console.WriteLine(vowelsInString(input));
+        }
+
+        static int vowelsInString(string input)
+        {
+            int count = 0;
+            for (int i = 0; i <  input.Length; i++)
+            {
+                if(input[i] == 'a' || input[i] == 'e' || input[i] == 'i' || input[i] == 'o' || input[i] == 'u') //theres probably a better way to do this
+                {
+                    count++;
+                }
+            }
+            return count;
         }
     }
 }
