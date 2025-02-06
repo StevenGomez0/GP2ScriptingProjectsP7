@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\statics\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statics\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\statics\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statics\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\statics\\player1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statics\\player1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\assets\\scripts\\statics\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statics\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\assets\\scripts\\statics\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statics\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Game.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Game.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Statics\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Statics\\PlayerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:29:49.246Z",
+              "WhenOpened": "2025-02-06T22:16:15.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Utilities.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Statics\\Utilities.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Utilities.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Statics\\Utilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:29:10.916Z",
+              "WhenOpened": "2025-02-06T22:16:13.443Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player1.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Player1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Statics\\Player1.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Player1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Statics\\Player1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:15:55.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Statics\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Statics\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:14:10.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Game1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Statics\\Game1.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Statics\\Game1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Statics\\Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:14:04.024Z"
             }
           ]
         }
