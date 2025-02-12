@@ -6,6 +6,6 @@ public class UtiliesExample : MonoBehaviour
 {
     private void Start()
     {
-        int x = Utilities.Add(5, 6);
+        Debug.Log("5 + 6 = " + Utilities.Add(5, 6));
     }
 }

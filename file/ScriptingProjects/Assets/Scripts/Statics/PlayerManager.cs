@@ -7,6 +7,6 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int x = Player1.playerCount;
+        Debug.Log(Player1.playerCount + " players");
     }
 }

@@ -10,6 +10,8 @@ public class Game1 : MonoBehaviour
         Enemy enemy1 = new Enemy();
         Enemy enemy2 = new Enemy();
         Enemy enemy3 = new Enemy();
+
+        Debug.Log(Enemy.enemyCount + " enemies");
     }
 
     int x = Enemy.enemyCount;

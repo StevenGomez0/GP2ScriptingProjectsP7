@@ -62,12 +62,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Properties\Game.cs" />
     <Compile Include="Assets\Scripts\Statics\Game1.cs" />
+    <Compile Include="Assets\Scripts\Method Overload\SomeOtherClass.cs" />
     <Compile Include="Assets\Scripts\Statics\Enemy.cs" />
     <Compile Include="Assets\Scripts\Statics\Player1.cs" />
     <Compile Include="Assets\Scripts\Properties\Player.cs" />
     <Compile Include="Assets\Scripts\Statics\UtiliesExample.cs" />
     <Compile Include="Assets\Scripts\Statics\Utilities.cs" />
     <Compile Include="Assets\Scripts\Statics\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\Method Overload\SomeClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
