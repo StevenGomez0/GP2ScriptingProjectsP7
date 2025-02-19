@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Method Overload.unity
+- path: Assets/Scenes/Generics.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

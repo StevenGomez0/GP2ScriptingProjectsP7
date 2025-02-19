@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\method overload\\someotherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\method overload\\someotherclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\assets\\scripts\\generics\\someclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generics\\someclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\method overload\\someclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\method overload\\someclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\generics\\someotherclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generics\\someotherclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\generics\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generics\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\generics\\genericclassexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generics\\genericclassexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SomeClass.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Method Overload\\SomeClass.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Method Overload\\SomeClass.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Method Overload\\SomeClass.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Method Overload\\SomeClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GenericClassExample.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\GenericClassExample.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Generics\\GenericClassExample.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\GenericClassExample.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Generics\\GenericClassExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:23:24.79Z",
+              "WhenOpened": "2025-02-19T22:13:32.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericClass.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\GenericClass.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Generics\\GenericClass.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\GenericClass.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Generics\\GenericClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T22:13:29.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SomeOtherClass1.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\SomeOtherClass1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Generics\\SomeOtherClass1.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\SomeOtherClass1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Generics\\SomeOtherClass1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T22:09:56.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SomeOtherClass.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Method Overload\\SomeOtherClass.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Method Overload\\SomeOtherClass.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Method Overload\\SomeOtherClass.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Method Overload\\SomeOtherClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SomeClass1.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\SomeClass1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Generics\\SomeClass1.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Generics\\SomeClass1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Generics\\SomeClass1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:23:25.905Z",
+              "WhenOpened": "2025-02-19T22:09:49.494Z",
               "EditorCaption": ""
             }
           ]
