@@ -9,6 +9,6 @@ public class SomeOtherClass1 : MonoBehaviour
     {
         SomeClass1 myclass = new SomeClass1();
 
-        myclass.GenericMethod<int>(5);
+        Debug.Log(myclass.GenericMethod<int>(5));
     }
 }
