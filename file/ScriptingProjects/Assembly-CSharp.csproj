@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Inheritance\Apple Class.cs" />
+    <Compile Include="Assets\Scripts\Member Hiding\EnemyClass.cs" />
     <Compile Include="Assets\Scripts\Properties\Game.cs" />
     <Compile Include="Assets\Scripts\Statics\Game1.cs" />
     <Compile Include="Assets\Scripts\Method Overload\SomeOtherClass.cs" />
@@ -70,9 +71,12 @@
     <Compile Include="Assets\Scripts\Inheritance\Fruit Class.cs" />
     <Compile Include="Assets\Scripts\Generics\SomeClass1.cs" />
     <Compile Include="Assets\Scripts\Generics\GenericClassExample.cs" />
+    <Compile Include="Assets\Scripts\Member Hiding\WarBand.cs" />
     <Compile Include="Assets\Scripts\Statics\Player1.cs" />
     <Compile Include="Assets\Scripts\Properties\Player.cs" />
     <Compile Include="Assets\Scripts\Statics\UtiliesExample.cs" />
+    <Compile Include="Assets\Scripts\Member Hiding\OrcClass.cs" />
+    <Compile Include="Assets\Scripts\Member Hiding\HumanoidClass.cs" />
     <Compile Include="Assets\Scripts\Statics\Utilities.cs" />
     <Compile Include="Assets\Scripts\Statics\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Generics\SomeOtherClass1.cs" />
