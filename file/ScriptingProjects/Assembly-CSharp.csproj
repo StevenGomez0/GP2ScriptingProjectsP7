@@ -74,10 +74,13 @@
     <Compile Include="Assets\Scripts\Member Hiding\WarBand.cs" />
     <Compile Include="Assets\Scripts\Statics\Player1.cs" />
     <Compile Include="Assets\Scripts\Properties\Player.cs" />
+    <Compile Include="Assets\Scripts\Overriding\AppleClass1.cs" />
     <Compile Include="Assets\Scripts\Statics\UtiliesExample.cs" />
     <Compile Include="Assets\Scripts\Member Hiding\OrcClass.cs" />
     <Compile Include="Assets\Scripts\Member Hiding\HumanoidClass.cs" />
     <Compile Include="Assets\Scripts\Statics\Utilities.cs" />
+    <Compile Include="Assets\Scripts\Overriding\FruitClass1.cs" />
+    <Compile Include="Assets\Scripts\Overriding\FruitSaladClass1.cs" />
     <Compile Include="Assets\Scripts\Statics\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Generics\SomeOtherClass1.cs" />
     <Compile Include="Assets\Scripts\Method Overload\SomeClass.cs" />

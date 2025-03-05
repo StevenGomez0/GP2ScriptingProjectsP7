@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\assets\\scripts\\member hiding\\enemyclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\member hiding\\enemyclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\overriding\\fruitsaladclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overriding\\fruitsaladclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\member hiding\\humanoidclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\member hiding\\humanoidclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\overriding\\fruitclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overriding\\fruitclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\assets\\scripts\\member hiding\\orcclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\member hiding\\orcclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\member hiding\\warband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\member hiding\\warband.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\overriding\\appleclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overriding\\appleclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WarBand.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\WarBand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Member Hiding\\WarBand.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\WarBand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Member Hiding\\WarBand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T22:09:10.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrcClass.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\OrcClass.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Member Hiding\\OrcClass.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\OrcClass.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Member Hiding\\OrcClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Title": "AppleClass1.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\AppleClass1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Overriding\\AppleClass1.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\AppleClass1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Overriding\\AppleClass1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T22:06:27.188Z",
+              "WhenOpened": "2025-03-05T19:55:29.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HumanoidClass.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\HumanoidClass.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Member Hiding\\HumanoidClass.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\HumanoidClass.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Member Hiding\\HumanoidClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Title": "FruitClass1.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitClass1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Overriding\\FruitClass1.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitClass1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Overriding\\FruitClass1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T22:06:25.606Z",
+              "WhenOpened": "2025-03-05T19:55:24.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemyClass.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\EnemyClass.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Member Hiding\\EnemyClass.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Member Hiding\\EnemyClass.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Member Hiding\\EnemyClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Title": "FruitSaladClass1.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T22:06:23.695Z",
+              "WhenOpened": "2025-03-05T19:55:22.745Z",
               "EditorCaption": ""
             }
           ]
