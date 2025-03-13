@@ -66,13 +66,17 @@
     <Compile Include="Assets\Scripts\Statics\Game1.cs" />
     <Compile Include="Assets\Scripts\Method Overload\SomeOtherClass.cs" />
     <Compile Include="Assets\Scripts\Statics\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Quaternions\MotionScript.cs" />
     <Compile Include="Assets\Scripts\Generics\GenericClass.cs" />
     <Compile Include="Assets\Scripts\Inheritance\FruitSalad Class.cs" />
     <Compile Include="Assets\Scripts\Inheritance\Fruit Class.cs" />
     <Compile Include="Assets\Scripts\Generics\SomeClass1.cs" />
+    <Compile Include="Assets\Scripts\Quaternions\LookAtScript.cs" />
     <Compile Include="Assets\Scripts\Generics\GenericClassExample.cs" />
     <Compile Include="Assets\Scripts\Member Hiding\WarBand.cs" />
+    <Compile Include="Assets\Scripts\Quaternions\GravityScript.cs" />
     <Compile Include="Assets\Scripts\Statics\Player1.cs" />
+    <Compile Include="Assets\Scripts\Quaternions\SomeClass2.cs" />
     <Compile Include="Assets\Scripts\Properties\Player.cs" />
     <Compile Include="Assets\Scripts\Overriding\AppleClass1.cs" />
     <Compile Include="Assets\Scripts\Statics\UtiliesExample.cs" />

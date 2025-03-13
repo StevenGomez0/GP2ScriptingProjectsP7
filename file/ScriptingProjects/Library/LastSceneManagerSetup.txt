@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Overriding.unity
+- path: Assets/Scenes/Quaternions.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
