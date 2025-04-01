@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\quaternions\\someclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quaternions\\someclass2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\events\\turncolorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\events\\turncolorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\quaternions\\motionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quaternions\\motionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\events\\teleportscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\events\\teleportscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\quaternions\\lookatscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quaternions\\lookatscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\quaternions\\gravityscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quaternions\\gravityscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\events\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\events\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SomeClass2.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\SomeClass2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quaternions\\SomeClass2.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\SomeClass2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quaternions\\SomeClass2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Title": "TurnColorScript.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Events\\TurnColorScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Events\\TurnColorScript.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Events\\TurnColorScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Events\\TurnColorScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:01:31.645Z",
+              "WhenOpened": "2025-04-01T21:03:45.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MotionScript.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\MotionScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quaternions\\MotionScript.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\MotionScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quaternions\\MotionScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABZAAAAAAAAAA==",
+              "Title": "TeleportScript.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Events\\TeleportScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Events\\TeleportScript.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Events\\TeleportScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Events\\TeleportScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:01:30.64Z",
+              "WhenOpened": "2025-04-01T21:03:40.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LookAtScript.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\LookAtScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quaternions\\LookAtScript.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\LookAtScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quaternions\\LookAtScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Events\\EventManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Events\\EventManager.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Events\\EventManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Events\\EventManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:01:29.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GravityScript.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\GravityScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quaternions\\GravityScript.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Quaternions\\GravityScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quaternions\\GravityScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:01:19.57Z",
+              "WhenOpened": "2025-04-01T21:03:37.536Z",
               "EditorCaption": ""
             }
           ]

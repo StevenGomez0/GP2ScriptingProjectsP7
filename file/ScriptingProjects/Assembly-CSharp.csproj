@@ -70,9 +70,12 @@
     <Compile Include="Assets\Scripts\Generics\GenericClass.cs" />
     <Compile Include="Assets\Scripts\Inheritance\FruitSalad Class.cs" />
     <Compile Include="Assets\Scripts\Inheritance\Fruit Class.cs" />
+    <Compile Include="Assets\Scripts\Events\TeleportScript.cs" />
     <Compile Include="Assets\Scripts\Generics\SomeClass1.cs" />
+    <Compile Include="Assets\Scripts\Events\TurnColorScript.cs" />
     <Compile Include="Assets\Scripts\Quaternions\LookAtScript.cs" />
     <Compile Include="Assets\Scripts\Generics\GenericClassExample.cs" />
+    <Compile Include="Assets\Scripts\Delegates\DelegateScript.cs" />
     <Compile Include="Assets\Scripts\Member Hiding\WarBand.cs" />
     <Compile Include="Assets\Scripts\Quaternions\GravityScript.cs" />
     <Compile Include="Assets\Scripts\Statics\Player1.cs" />
@@ -81,6 +84,8 @@
     <Compile Include="Assets\Scripts\Overriding\AppleClass1.cs" />
     <Compile Include="Assets\Scripts\Statics\UtiliesExample.cs" />
     <Compile Include="Assets\Scripts\Member Hiding\OrcClass.cs" />
+    <Compile Include="Assets\Scripts\Delegates\MulticastScript.cs" />
+    <Compile Include="Assets\Scripts\Events\EventManager.cs" />
     <Compile Include="Assets\Scripts\Member Hiding\HumanoidClass.cs" />
     <Compile Include="Assets\Scripts\Statics\Utilities.cs" />
     <Compile Include="Assets\Scripts\Overriding\FruitClass1.cs" />

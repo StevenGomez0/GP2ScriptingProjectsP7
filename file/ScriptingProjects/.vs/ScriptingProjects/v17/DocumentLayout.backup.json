@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\overriding\\fruitsaladclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overriding\\fruitsaladclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\delegates\\multicastscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delegates\\multicastscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\assets\\scripts\\overriding\\fruitclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overriding\\fruitclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\assets\\scripts\\overriding\\appleclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overriding\\appleclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|c:\\users\\per1student\\documents\\github\\gp2scriptingprojectsp7\\file\\scriptingprojects\\assets\\scripts\\delegates\\delegatescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07261FD-2331-63FE-5EDD-588D8BCB4B9C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delegates\\delegatescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppleClass1.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\AppleClass1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Overriding\\AppleClass1.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\AppleClass1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Overriding\\AppleClass1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:55:29.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FruitClass1.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitClass1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Overriding\\FruitClass1.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitClass1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Overriding\\FruitClass1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Title": "DelegateScript.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Delegates\\DelegateScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Delegates\\DelegateScript.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Delegates\\DelegateScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Delegates\\DelegateScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:55:24.615Z",
+              "WhenOpened": "2025-03-21T21:10:17.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FruitSaladClass1.cs",
-              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
-              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Overriding\\FruitSaladClass1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Title": "MulticastScript.cs",
+              "DocumentMoniker": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Delegates\\MulticastScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Delegates\\MulticastScript.cs",
+              "ToolTip": "C:\\Users\\Per1Student\\Documents\\GitHub\\GP2ScriptingProjectsP7\\file\\ScriptingProjects\\Assets\\Scripts\\Delegates\\MulticastScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Delegates\\MulticastScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:55:22.745Z",
+              "WhenOpened": "2025-03-21T21:02:55.502Z",
               "EditorCaption": ""
             }
           ]
